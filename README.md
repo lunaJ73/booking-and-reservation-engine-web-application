@@ -14,9 +14,10 @@ Our team was responsible for migrating the booking and reservation engine web ap
       - Capabilities: such as Booking, Register/Login, Promo Code, Check-in Service
       - Performance improvements (compared to older system webviews)
    - Drawbacks
-     - No new features added.
+     - No more new features added.
 
 ### 2. Idea & Design 
+The old system is based on Spring Boot 2.0 and Spring Data. The whole idea is to reorganization of the system structure while retaining the original functionality.
 
 ### 3. Implementation
 Developed with microservices architecture Hotel Booking Interface and several new REST APIs, including booking service, Register/Login security service, Promo Code Verification  and customer check-in service by using Spring cloud, Spring Security and Spring MVC.
@@ -43,13 +44,6 @@ Tested application API implementation using Junit 5 and Spring Boot Testing Star
 Deployed the above application API as a Docker image on AWS EC2 for integration testing.
 
 Kafka to establish a communication protocol between service and system and AWS SDK to connect to Amazon S3 buckets, which is provides us an end-to-end approach which secures and hardens your infrastructure. It give us with the security we need at a lower cost than in an on-premises environment. The security are provided protects the privacy as it is stored in AWS data centers of our project. The application is hosted on EC2 instances and load is balanced by a Load Balancer and Auto Scaling Groups (ASG).
-### Create a Minimum Viable Product
 ### Demo to Client & Get Feedback
-### Design a Roadmap
 
 ### Install
-
-The following directions are for cordova-cli (most people).  Alternatively you can use the [Android platform scripts workflow](PlatformScriptsWorkflow.md).
-
-* Open an existing cordova project, with cordova-android 4.0.0+, and using the latest CLI. Crosswalk variables can be configured as an option when installing the plugin
-* Add this plugin 

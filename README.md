@@ -9,12 +9,6 @@ My client is a global provider that aims to generate efficient and innovative bo
 Our team was responsible for migrating the booking and reservation engine web application to microservices, dividing the existing functionality into different microservices modules to facilitate subsequent independent development, monitoring and extension to improve the efficiency of booking transactions.
 
 #### Features
-- Benefits
- - WebView doesn't change depending on Android version
-* Capabilities: such as WebRTC, WebAudio, Web Components
-* Performance improvements (compared to older system webviews)
-
-1. Features
    -  Benefits
       - WebView doesn't change depending on Android version
       - Capabilities: such as WebRTC, WebAudio, Web Components
